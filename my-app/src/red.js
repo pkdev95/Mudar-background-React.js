@@ -6,17 +6,17 @@ const Red = () => {
 
   const red = () => {
   
-  return document.body.style.backgroundImage = "url('https://img.freepik.com/psd-gratuitas/projeto-abstrato-do-fundo_1297-82.jpg?w=2000')";
+  document.body.style.backgroundImage = "url('https://img.freepik.com/psd-gratuitas/projeto-abstrato-do-fundo_1297-82.jpg?w=2000')";
   document.getElementById('lk').style.backgroundColor = "red";
 }
 
 const yellow = () => {
-  return document.body.style.backgroundImage = "url('https://elements-cover-images-0.imgix.net/4dbaff21-8e06-4cb7-9b96-efb05033ef13?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&w=1200&s=c041b20d843a99f1d29b8b9edbb30111')";
+  document.body.style.backgroundImage = "url('https://elements-cover-images-0.imgix.net/4dbaff21-8e06-4cb7-9b96-efb05033ef13?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&w=1200&s=c041b20d843a99f1d29b8b9edbb30111')";
   document.getElementById('ll').style.backgroundColor = "yellow";
 }
 
 const green = () => {
-  return document.body.style.backgroundImage = "url('https://img.freepik.com/vetores-gratis/fundo-abstrato-gradiente-monocromatico_52683-74300.jpg')";
+  document.body.style.backgroundImage = "url('https://img.freepik.com/vetores-gratis/fundo-abstrato-gradiente-monocromatico_52683-74300.jpg')";
   document.getElementById('pp').style.backgroundColor = "green";
 }
 
